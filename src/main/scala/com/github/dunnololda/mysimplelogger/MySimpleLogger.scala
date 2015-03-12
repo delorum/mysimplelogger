@@ -10,6 +10,7 @@ object MySimpleLogger {
      def info(message: => String) {if (log.isInfoEnabled) log.info(message)}
      def warn(message: => String) {if (log.isWarnEnabled) log.warn(message)}
      def error(message: => String) {if (log.isErrorEnabled) log.error(message)}
+     def error(message: => String, t:Exception) {if (log.isErrorEnabled) log.error(message, t)}
    }
 
    def apply(name:String):MySimpleLogger = new MySimpleLogger(name)
