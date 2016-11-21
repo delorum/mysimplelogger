@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.dunnololda</groupId>
   <artifactId>mysimplelogger_${publish.scala.version}</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
   <name>${project.artifactId}</name>
   <description>Simple Log Tool which utilize scala's 'by-value argument' feature</description>
   <inceptionYear>2015</inceptionYear>
@@ -19,8 +19,8 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <encoding>UTF-8</encoding>
-        <scala.version>2.10.4</scala.version>
-        <publish.scala.version>2.10</publish.scala.version>
+        <scala.version>2.11.8</scala.version>
+        <publish.scala.version>2.11</publish.scala.version>
         <github.global.server>github</github.global.server>
     </properties>
 
